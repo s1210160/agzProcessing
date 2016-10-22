@@ -208,8 +208,8 @@ public void calcScale(){
   
   println("calcScale");
   
-  referenceX = basePos[2][0];
-  referenceY = basePos[2][1];
+  referenceX = basePos[0][0];
+  referenceY = basePos[0][1];
   
   for(int i=0; i<baseId.length; i++){
     dX[i] = calc_distanceX(basePos[i][0], referenceX);
